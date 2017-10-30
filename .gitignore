@@ -53,6 +53,7 @@ tags
 node_modules/
 .tmp
 test/
+vendor/
 
 # Sublime
 *.sublime-project
