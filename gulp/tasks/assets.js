@@ -28,12 +28,44 @@ gulp.task('scripts', () =>
     'src/assets/javascript/vendor.js',
     'src/assets/javascript/main.js'
   ])
-    .pipe(newer('.tmp/assets/javascript/index.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
+    .pipe(newer('.tmp/assets/javascript/main.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(babel({
       presets: ['es2015']
     }))
-    .pipe(concat('index.js'))
+    .pipe(concat('2main.js'))
+    .pipe(size({
+      showFiles: true
+    }))
+    .pipe(when(argv.prod, rename({suffix: '.min'})))
+    .pipe(when(argv.prod, when('*.js', uglify({preserveComments: 'some'}))))
+    .pipe(when(argv.prod, size({
+      showFiles: true
+    })))
+    .pipe(when(argv.prod, rev()))
+    .pipe(when(!argv.prod, sourcemaps.write('.')))
+    .pipe(when(argv.prod, gulp.dest('.tmp/assets/javascript')))
+    .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
+    .pipe(when(argv.prod, size({
+      gzip: true,
+      showFiles: true
+    })))
+    .pipe(gulp.dest('.tmp/assets/javascript'))
+);
+
+gulp.task('scripts:vendor', () =>
+  // NOTE: The order here is important since it's concatenated in order from
+  // top to bottom, so you want vendor scripts etc on top
+  gulp.src([
+    'vendor/jquery/dist/jquery.min.js',
+    'vendor/owl.carousel/dist/owl.carousel.min.js'
+  ])
+    .pipe(newer('.tmp/assets/javascript/vendor.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
+    .pipe(when(!argv.prod, sourcemaps.init()))
+    .pipe(babel({
+      presets: ['es2015']
+    }))
+    .pipe(concat('1vendor.js'))
     .pipe(size({
       showFiles: true
     }))

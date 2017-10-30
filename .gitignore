@@ -53,6 +53,7 @@ tags
 node_modules/
 .tmp
 test/
+vendor/
 
 # Sublime
 *.sublime-project
@@ -67,3 +68,6 @@ dist
 # hide the AWS and Rsync credentials file
 aws-credentials.json
 rsync-credentials.json
+
+# Gemfile.lock
+Gemfile.lock

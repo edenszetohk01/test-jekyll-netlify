@@ -5,13 +5,14 @@
 ## To get started
 
 ```sh
-$ gulp [--prod]
+$ npm run serve
+$ npm run serve:dist (For preview built assets)
 ```
 
 ## Usage
 
 ```sh
-$ gulp build [--prod]
+$ npm run build (For production build)
 ```
 
 ```sh
@@ -25,7 +26,7 @@ profile if you want to.
 ## Install
 If you have cloned this repo or want to reinstall, make sure there&#39;s no
 `node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
-`bundle install`.
+`bundle install` and `bower install`.
 
 #### Update
 To update: `npm update generator-jekyllized -g`, then run `yo jekyllized:gulp
