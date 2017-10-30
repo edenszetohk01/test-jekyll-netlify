@@ -5,13 +5,14 @@
 ## To get started
 
 ```sh
-$ gulp [--prod]
+$ npm run serve
+$ npm run serve:dist (For preview built assets)
 ```
 
 ## Usage
 
 ```sh
-$ gulp build [--prod]
+$ npm run build (For production build)
 ```
 
 ```sh
