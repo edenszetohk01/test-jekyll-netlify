@@ -25,8 +25,8 @@ profile if you want to.
 
 ## Install
 If you have cloned this repo or want to reinstall, make sure there&#39;s no
-`node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
-`bundle install` and `bower install`.
+`node_modules` or `Gemfile.lock` folder/file and then run `yarn` and `bundle
+install` and `bower install`.
 
 #### Update
 To update: `npm update generator-jekyllized -g`, then run `yo jekyllized:gulp
