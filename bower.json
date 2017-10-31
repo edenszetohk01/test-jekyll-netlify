@@ -1,0 +1,23 @@
+{
+  "name": "sponsor-xmas-advent",
+  "description": "Sponsor site for xmas advent",
+  "main": "",
+  "authors": [
+    "Eden Szeto <edenszeto@hk01.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hk01-digital/sponsor-xmas-advent",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.1",
+    "jquery": "^3.2.1"
+  }
+}
