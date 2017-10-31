@@ -1,0 +1,34 @@
+language: node_js
+node_js: 8
+
+group: stable
+dist: trusty
+os: linux
+
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+    - master
+    - /^development.*/
+
+install: npm install && bundle install
+script: npm test
+
+notifications:
+  email:
+    recipients:
+      - edenszeto@hk01.com
+      - irenecheung@hk01.com
+    on_success: change
+    on_failure: always
+  webhooks:
+    urls:
+      - https://qa2s.herokuapp.com/travis/slack
+    on_success: change
+    on_failure: always
+    on_start: never
+    on_cancel: never
+    on_error: always
