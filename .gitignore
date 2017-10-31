@@ -69,5 +69,3 @@ dist
 aws-credentials.json
 rsync-credentials.json
 
-# Gemfile.lock
-Gemfile.lock
