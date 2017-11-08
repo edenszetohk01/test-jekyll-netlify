@@ -44,8 +44,6 @@ highlighter: rouge
 
 # Extending Jekyll
 plugins:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
