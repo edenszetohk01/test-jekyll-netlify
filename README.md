@@ -19,6 +19,9 @@ $ npm run build (For production build)
 $ gulp deploy
 ```
 
+## Url
+If you need to update `baseurl` please update in both `_config.yml` and `package.json`
+
 #### Settings
 In your `_config.yml` and `humans.txt` you should add your Github and Twitter
 profile if you want to.
