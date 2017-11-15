@@ -1,0 +1,10 @@
+.scroll-down-btn {
+  padding: 4rem 0;
+  margin-top: auto;
+  animation: toBottom 2s infinite;
+
+  a {
+    padding: 2rem;
+    color: $dark-green;
+  }
+}

@@ -1,0 +1,32 @@
+.main-slider {
+  height: 100%;
+
+  .owl-stage-outer,
+  .owl-stage,
+  .owl-item {
+    height: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &__graph {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+
+  &__teaser {
+    width: 80%;
+    margin: 0 auto rem(62px);
+    line-height: 30px;
+    color: $grey;
+
+    h5 {
+      color: $green;
+    }
+  }
+}

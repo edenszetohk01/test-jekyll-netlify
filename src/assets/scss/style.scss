@@ -1,1 +1,36 @@
-@import "vendor/bootstrap/scss/bootstrap";
+//== Colors
+//
+//
+$light-blue:        #d6e4ef;
+$green:             #0c8d97;
+$dark-green:        #839b9f;
+$grey:              #404040;
+
+//== Scene
+//
+//
+$teaser-height:       94px;
+
+
+//== Vendors
+@import '../../../vendor/bootstrap/scss/functions';
+@import './vendors-extensions/bootstrap/variables';
+@import '../../../vendor/bootstrap/scss/bootstrap';
+
+@import '../../../vendor/owl.carousel/src/scss/owl.carousel';
+@import './vendors-extensions/owl.carousel/theme.default';
+@import '../../../vendor/owl.carousel/src/scss/theme';
+
+//== Vendors-extensions
+//
+@import './vendors-extensions/owl.carousel/theme';
+
+
+@import './abstracts/functions';
+@import './animations/animations';
+@import './common';
+
+@import './partials/font-icons',
+        './partials/scroll-down-btn',
+        './partials/main-slider',
+        './partials/footer';

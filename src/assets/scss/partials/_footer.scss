@@ -1,0 +1,13 @@
+.footer {
+  &__list {
+    li {
+      padding: 0 5px;
+      line-height: 1.2;
+      margin: 0 !important;
+
+      &:not(:last-child) {
+        border-right: 1px solid $dark-green;
+      }
+    }
+  }
+}
