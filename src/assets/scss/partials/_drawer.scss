@@ -1,0 +1,45 @@
+.drawer-wrapper{
+  .drawer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    .drawer {
+      width: calc(100%/7);
+      padding: 0 10px 20px 10px;
+
+      .brand-logo {
+        width: 100%;
+        height: 100%;
+        background: pink;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .box_background {
+
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .drawer-wrapper {
+    .drawer-wrap {
+      .drawer {
+        width: calc(100%/5);
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .drawer-wrapper {
+    .drawer-wrap {
+      .drawer {
+        width: calc(100%/2);
+      }
+    }
+  }
+}
