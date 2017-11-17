@@ -7,9 +7,9 @@
       width: (100% / 7);
       padding: 0 10px 20px 10px;
       position: relative;
-      perspective: 900;
+      perspective: 900px;
 
-      &:hover .brand-logo {
+      &:hover .door {
         transform: rotateY(85deg);
       }
 
@@ -18,7 +18,7 @@
         display: flex;
       }
 
-      .brand-logo {
+      .door {
         width: 100%;
         height: 100%;
         background: pink;
@@ -26,6 +26,10 @@
         transform-style: preserve-3d;
         transform-origin: left center;
         transition: transform 1s;
+      }
+
+      .box_background {
+        width: 100%;
       }
 
       img {
