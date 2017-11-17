@@ -1,118 +1,16 @@
 <section id="drawer-section" class="drawer-wrapper">
   <div class="container">
     <div class="drawer-wrap">
+      {% for drawer in site.data.drawer %}
       <div class="drawer">
         <div class="content">
-          <div class="door"></div>
+          <div class="door">{{ drawer.id }}<img src="assets/images/drawer/{{ drawer.door-img }}"></div>
           <div class="box_background">
             <img src="assets/images/drawer/box_background.svg">
           </div>
         </div>
       </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
-      <div class="drawer">
-        <div class="content">
-          <div class="door"></div>
-          <div class="box_background">
-            <img src="assets/images/drawer/box_background.svg">
-          </div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
