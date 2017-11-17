@@ -2,9 +2,9 @@
   <div class="container">
     <div class="drawer-wrap">
       {% for drawer in site.data.drawer %}
-      <div class="drawer">
+      <div class="drawer" data-toggle="modal" data-target="#drawer-modal" data-id="{{ drawer.id }}" >
         <div class="content">
-          <div class="door">{{ drawer.id }}<img src="assets/images/drawer/{{ drawer.door-img }}"></div>
+          <div class="door">{{ drawer.id }} <!-- <img src="assets/images/drawer/{{ drawer.door-img }}"> --> </div>
           <div class="box_background">
             <img src="assets/images/drawer/box_background.svg">
           </div>

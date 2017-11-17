@@ -23,3 +23,8 @@ $(function() {
 
   scrollTo();
 });
+
+$(document).on("click", ".drawer", function () {
+    var id = $(this).data('id');
+    $(".modal-body .title").text(id);
+});
