@@ -17,7 +17,7 @@ gulp.task('build:site', gulp.series('site:tmp', 'inject', 'site', 'copy:site'));
 // production settings
 gulp.task('assets', gulp.series(
   gulp.series('clean:assets'),
-  gulp.parallel('styles', 'scripts:vendor', 'scripts', 'fonts', 'images'),
+  gulp.parallel('styles', 'scripts:vendor', 'scripts', 'copy:snapsvg', 'fonts', 'images'),
   gulp.series('copy:assets')
 ));
 

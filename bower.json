@@ -19,6 +19,7 @@
   "dependencies": {
     "owl.carousel": "^2.2.1",
     "jquery": "^3.2.1",
-    "bootstrap": "4.0.0-beta"
+    "bootstrap": "4.0.0-beta",
+    "csshake": "^1.5.2"
   }
 }

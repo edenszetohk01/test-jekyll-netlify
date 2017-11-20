@@ -2,7 +2,8 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: Sponsor-xmas-advent
 description: Sponsor site for xmas advent
-url: https://hk01-digital.github.io/sponsor-xmas-advent
+url: https://hk01-digital.github.io
+baseurl: sponsor-xmas-advent
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src

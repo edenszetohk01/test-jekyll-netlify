@@ -14,3 +14,7 @@ gulp.task('copy:site', () =>
     .pipe(gulp.dest('dist'))
 );
 
+gulp.task('copy:snapsvg', () =>
+  gulp.src('src/assets/SnapSVGAnimator/**/*')
+    .pipe(gulp.dest('dist/assets/SnapSVGAnimator'))
+);

@@ -1,0 +1,282 @@
+{
+  "DOMDocument": {
+    "Shape": [],
+    "Bitmaps": [
+      {
+        "charid": "1",
+        "height": "105",
+        "width": "167",
+        "bitmapPath": "./assets/images/Image0.png"
+      },
+      {
+        "charid": "2",
+        "height": "152",
+        "width": "141",
+        "bitmapPath": "./assets/images/Image1.png"
+      },
+      {
+        "charid": "5",
+        "height": "144",
+        "width": "95",
+        "bitmapPath": "./assets/images/Image2.png"
+      },
+      {
+        "charid": "7",
+        "height": "625",
+        "width": "512",
+        "bitmapPath": "./assets/images/Image3.png"
+      },
+      {
+        "charid": "10",
+        "height": "119",
+        "width": "145",
+        "bitmapPath": "./assets/images/Image4.png"
+      },
+      {
+        "charid": "11",
+        "height": "100",
+        "width": "105",
+        "bitmapPath": "./assets/images/Image5.png"
+      },
+      {
+        "charid": "12",
+        "height": "220",
+        "width": "226",
+        "bitmapPath": "./assets/images/Image6.png"
+      },
+      {
+        "charid": "13",
+        "height": "205",
+        "width": "1270",
+        "bitmapPath": "./assets/images/Image7.png"
+      },
+      {
+        "charid": "16",
+        "height": "641",
+        "width": "1221",
+        "bitmapPath": "./assets/images/Image8.png"
+      },
+      {
+        "charid": "4",
+        "height": "156",
+        "width": "100",
+        "bitmapPath": "./assets/images/Image10.png"
+      },
+      {
+        "charid": "9",
+        "height": "123",
+        "width": "145",
+        "bitmapPath": "./assets/images/Image11.png"
+      },
+      {
+        "charid": "15",
+        "height": "641",
+        "width": "1221",
+        "bitmapPath": "./assets/images/Image12.png"
+      },
+      {
+        "charid": "3",
+        "height": "158",
+        "width": "106",
+        "bitmapPath": "./assets/images/Image13.png"
+      },
+      {
+        "charid": "8",
+        "height": "128",
+        "width": "145",
+        "bitmapPath": "./assets/images/Image14.png"
+      },
+      {
+        "charid": "14",
+        "height": "641",
+        "width": "1221",
+        "bitmapPath": "./assets/images/Image15.png"
+      }
+    ],
+    "Sounds": [],
+    "Text": [],
+    "Timeline": [
+      {
+        "charid": "6",
+        "frameCount": "1",
+        "name": "Symbol 1",
+        "Frame": [
+          {
+            "num": "0",
+            "Command": [
+              {
+                "cmdType": "Place",
+                "charid": "5",
+                "objectId": "1",
+                "placeAfter": "0",
+                "transformMatrix": "1,0,0,1,0,0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frameCount": "48",
+        "Frame": [
+          {
+            "num": "0",
+            "Command": [
+              {
+                "cmdType": "Place",
+                "charid": "1",
+                "objectId": "1",
+                "placeAfter": "0",
+                "transformMatrix": "1,0,0,1,961,519"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "2",
+                "objectId": "2",
+                "placeAfter": "1",
+                "transformMatrix": "1,0,0,1,906,280"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "6",
+                "objectId": "3",
+                "placeAfter": "2",
+                "transformMatrix": "1,0,0,1,423,77",
+                "name": "candle"
+              },
+              {
+                "cmdType": "UpdateColorTransform",
+                "objectId": "3",
+                "colorMatrix": "1,0,1,0,1,0,1,0,"
+              },
+              {
+                "cmdType": "UpdateVisibility",
+                "objectId": "3",
+                "visibility": "true"
+              },
+              {
+                "cmdType": "UpdateBlendMode",
+                "objectId": "3",
+                "blendMode": "Normal"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "7",
+                "objectId": "4",
+                "placeAfter": "3",
+                "transformMatrix": "1,0,0,1,461,58"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "10",
+                "objectId": "5",
+                "placeAfter": "4",
+                "transformMatrix": "1,0,0,1,1118,586"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "11",
+                "objectId": "6",
+                "placeAfter": "5",
+                "transformMatrix": "1,0,0,1,183,583"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "12",
+                "objectId": "7",
+                "placeAfter": "6",
+                "transformMatrix": "1,0,0,1,287,414"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "13",
+                "objectId": "8",
+                "placeAfter": "7",
+                "transformMatrix": "1,0,0,1,66,565"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "16",
+                "objectId": "9",
+                "placeAfter": "8",
+                "transformMatrix": "1,0,0,1,107,129"
+              }
+            ]
+          },
+          {
+            "num": "13",
+            "Command": [
+              {
+                "cmdType": "Place",
+                "charid": "4",
+                "objectId": "11",
+                "placeAfter": "2",
+                "transformMatrix": "1,0,0,1,422,65"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "9",
+                "objectId": "12",
+                "placeAfter": "4",
+                "transformMatrix": "1,0,0,1,1118,582"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "15",
+                "objectId": "13",
+                "placeAfter": "8",
+                "transformMatrix": "1,0,0,1,107,129"
+              }
+            ]
+          },
+          {
+            "num": "30",
+            "Command": [
+              {
+                "cmdType": "Place",
+                "charid": "3",
+                "objectId": "14",
+                "placeAfter": "2",
+                "transformMatrix": "1,0,0,1,418,63"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "8",
+                "objectId": "15",
+                "placeAfter": "4",
+                "transformMatrix": "1,0,0,1,1118,577"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "14",
+                "objectId": "16",
+                "placeAfter": "8",
+                "transformMatrix": "1,0,0,1,107,129"
+              }
+            ]
+          },
+          {
+            "num": "47",
+            "Command": [
+              {
+                "cmdType": "Remove",
+                "objectId": "3"
+              },
+              {
+                "cmdType": "Place",
+                "charid": "5",
+                "objectId": "17",
+                "placeAfter": "11",
+                "transformMatrix": "1,0,0,1,423,77"
+              },
+              {
+                "cmdType": "UpdateZOrder",
+                "objectId": "4",
+                "placeAfter": "17"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

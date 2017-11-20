@@ -25,7 +25,7 @@ gulp.task('scripts', () =>
   // NOTE: The order here is important since it's concatenated in order from
   // top to bottom, so you want vendor scripts etc on top
   gulp.src([
-    'src/assets/javascript/main.js'
+    'src/assets/javascript/*.js'
   ])
     .pipe(newer('.tmp/assets/javascript/2main.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
@@ -58,6 +58,8 @@ gulp.task('scripts:vendor', () =>
   gulp.src([
     'vendor/jquery/dist/jquery.min.js',
     'vendor/owl.carousel/dist/owl.carousel.min.js',
+    'vendor/Snap.svg/dist/snap.svg-min.js',
+    'src/assets/SnapSVGAnimator/js/SnapSVGAnimator.min.js',
     'vendor/bootstrap/js/dist/util.js',
     'vendor/bootstrap/js/dist/modal.js'
   ])

@@ -1,6 +1,7 @@
 .scroll-down-btn {
-  padding: 4rem 0;
-  margin-top: auto;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
   animation: toBottom 2s infinite;
 
   a {
