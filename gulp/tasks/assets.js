@@ -57,7 +57,9 @@ gulp.task('scripts:vendor', () =>
   // top to bottom, so you want vendor scripts etc on top
   gulp.src([
     'vendor/jquery/dist/jquery.min.js',
-    'vendor/owl.carousel/dist/owl.carousel.min.js'
+    'vendor/owl.carousel/dist/owl.carousel.min.js',
+    'vendor/bootstrap/js/dist/util.js',
+    'vendor/bootstrap/js/dist/modal.js'
   ])
     .pipe(newer('.tmp/assets/javascript/1vendor.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))

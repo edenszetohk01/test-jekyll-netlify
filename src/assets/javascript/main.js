@@ -23,3 +23,13 @@ $(function() {
 
   scrollTo();
 });
+
+$(document).on("click", ".drawer", function () {
+    var id = $(this).data('id');
+    var title = $(this).data('title');
+    var desc = $(this).data('desc');
+    var img = $(this).data('img');
+    $(".modal-body .title").text(title);
+    $(".modal-body .desc").text(desc);
+    $(".modal-body img").attr("src", img);
+});
