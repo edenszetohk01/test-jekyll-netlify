@@ -14,14 +14,14 @@
       }
 
       .content {
-        @include ratio-box('.content', 1);
+        @include ratio-box('.door img', 1);
         display: flex;
       }
 
       .door {
         width: 100%;
         height: 100%;
-        background: pink;
+        background: white;
         position: absolute;
         transform-style: preserve-3d;
         transform-origin: left center;

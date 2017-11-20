@@ -4,7 +4,9 @@
       {% for drawer in site.data.drawer %}
       <div class="drawer" data-toggle="modal" data-target="#drawer-modal" data-id="{{ drawer.id }}" data-title="{{ drawer.title }}" data-desc="{{ drawer.desc }}" data-img="{{ drawer.img }}">
         <div class="content">
-          <div class="door">{{ drawer.id }} <!-- <img src="assets/images/drawer/{{ drawer.door-img }}"> --> </div>
+          <div class="door">
+              <img src="{{ drawer.door-img }}">
+          </div>
           <div class="box_background">
             <img src="assets/images/drawer/box_background.svg">
           </div>
