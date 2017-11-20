@@ -1,41 +1,83 @@
 - id: 1
   door-img:
+  title: 遊戲移植可能沒有你想像中容易
+  desc: 「為甚麼我渴望已久的遊戲總是不在XX平台上推出呢？」這個問題可能比玩家想像中更複雜。
+  img: assets/images/drawer/gift/test.jpg
 
 - id: 2
   door-img:
+  title: 遊戲移植可能沒有你想像中容易
+  desc: 「為甚麼我渴望已久的遊戲總是不在XX平台上推出呢？」這個問題可能比玩家想像中更複雜。
+  img: assets/images/drawer/gift/qr-code.jpg
 
 - id: 3
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 4
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 5
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 6
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 7
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 8
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 9
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 10
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 11
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 12
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 13
   door-img:
+  title:
+  desc:
+  img:
 
 - id: 14
   door-img:
+  title:
+  desc:
+  img:
