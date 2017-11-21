@@ -3,7 +3,7 @@ backend:
   repo: edenszetohk01/test-jekyll-netlify
   branch: development
 
-media_folder: "src/assets/images/featured"
+media_folder: "src/assets/images"
 public_folder: "assets/images"
 publish_mode: editorial_workflow
 
