@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: edenszetohk01/test-jekyll-netlify
-  branch: master
+  branch: development
 
 media_folder: "src/assets/images/featured"
 public_folder: "assets/images"
