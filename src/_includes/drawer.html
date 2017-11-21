@@ -1,7 +1,7 @@
 <section id="drawer-section" class="drawer-wrapper">
   <div class="container">
     <div class="drawer-wrap">
-      {% for drawer in site.categories.drawer %}
+      {% for drawer in site.drawer %}
       <div class="drawer" data-toggle="modal" data-target="#drawer-modal" data-id="{{ drawer.id }}" data-title="{{ drawer.title }}" data-desc="{{ drawer.content }}" data-img="{{ drawer.img }}">
         <div class="content">
           <div class="door">

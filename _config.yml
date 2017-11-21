@@ -5,6 +5,10 @@ description: Sponsor site for xmas advent
 url: https://jolly-tesla-019890.netlify.com
 # baseurl: sponsor-xmas-advent
 
+collections:
+  - scenes
+  - drawer
+
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
 destination: .tmp/dist
