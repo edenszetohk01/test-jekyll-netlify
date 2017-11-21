@@ -2,7 +2,7 @@
   "name": "sponsor-xmas-advent",
   "version": "0.0.0",
   "description": "Sponsor site for xmas advent",
-  "homepage": "https://hk01-digital.github.io/sponsor-xmas-advent",
+  "homepage": "https://jolly-tesla-019890.netlify.com",
   "devDependencies": {
     "autoprefixer": "^6.2.3",
     "babel-preset-es2015": "^6.9.0",
