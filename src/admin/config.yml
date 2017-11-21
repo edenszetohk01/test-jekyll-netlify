@@ -8,9 +8,9 @@ public_folder: "assets/images"
 publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "src/_posts"
+  - name: "scenes" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Scenes" # Used in the UI, ie.: "New Post"
+    folder: "src/_posts/scenes"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -24,15 +24,14 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "drawer" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Drawer" # Used in the UI, ie.: "New Post"
-    folder: "src/_posts"
+    folder: "src/_posts/drawer"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
-      - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
+      - {label: "Brand Logo", name: "image", widget: "image", required: false, tagname: ""}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Video", name: "id", widget: "string"}
     meta:
       - {label: "SEO Description", name: "description", widget: "text"}
     card: {type: "image", image: "image", text: "title"}
