@@ -2,11 +2,12 @@
   <div class="container">
     <div class="main-slider owl-carousel owl-theme">
 
+      {% for scene in site.categories.scenes %}
       <div class="main-slider__item" data-hash="scene-1">
         <div class="main-slider__teaser text-center">
-          <h5>聖誕瘋狂大特賣</h5>
+          <h5>{{scene.title}}</h5>
           <p>
-            者不不物無上有洋果重定案我型是開嗎帶設山策懷光創人而電務？眾空風師後？生信叫健一相分密極投規的樓分戰著；流資性歷容的一價來國現息保不！於生計吃因國著美參清愛間。苦到我營下園作萬已香灣關種，參原人裡，邊高大是說不第中送她日說，要他收道。
+            {{scene.content}}
           </p>
         </div>
         <div class="main-slider__graph">
@@ -14,8 +15,7 @@
           <div id="scene-1" class="main-slider__scene"></div>
         </div>
       </div>
-
-      
+      {% endfor %}
 
     </div>
   </div>
