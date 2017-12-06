@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   repo: edenszetohk01/test-jekyll-netlify
   branch: development
-  accept_roles: admin
 
 media_folder: "src/assets/images"
 public_folder: "assets/images"
